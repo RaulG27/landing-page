@@ -1,0 +1,60 @@
+.flex-container{
+    display:flex;
+    flex-direction: column;
+}
+
+.top {
+    height: 300px;
+    width: auto;
+    background: #1F2937;
+}
+
+.top h5{
+    display: flex;
+    color: #F9FAF8;
+    font: extra-bold;
+    font-size: 24px;
+    font-family: "Verdana", sans-serif;
+    margin-left: 10%;
+    margin-top: 0.8%;
+
+}
+
+.top h6{
+    
+    flex-direction: row;
+    color: #E5E7EB; 
+    margin-left: 75%
+
+
+}
+
+
+
+.mid {
+    height: 250px;
+    width: auto;
+    background: white;
+}
+
+.lowermid{
+    height: 250px;
+    width: auto;
+    background: #E5E7EB;
+   
+}
+
+
+.bottom{
+    height: 250px;
+    width: auto;
+    background: white;
+
+}
+
+.footer{
+    height: 45px;
+    width: auto;
+    background: #1F2937;
+
+}
