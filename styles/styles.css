@@ -155,57 +155,78 @@ li{
 }
 
 .bottom{
-    height: 250px;
+    height: 275px;
     width: auto;
     background: white;
 
 }
 
 #signup2{
-
+  
     display:flex;
     flex-direction:column;
-    margin-left: 25%;
+    margin-left: 30%;
     background-color: #3882F6;
-    margin-top: 5%;
-    height: 85px;
+    margin-top: 4%;
+    height: 130px;
     width:40%;
     border-radius: 8px;
 
 }
 
-#signup2button{
-  
+#signuptext{
+    width: 40%;
+    margin-left:10%;
+    bottom: 40%;
+}
+#signup2button {
+   
+    width: 13%;
+    padding-left: 3%;
     border-radius: 8px;
     border: 1px solid white;
-    width:100px;
-    margin-left:70%;
+    position: relative;
+    left: 75%;
     background-color: #3882F6;
+    bottom:45px;
+    height: 45px;
+}
+
+#sample1 {
+    
+    font-size:23px;
+    color: white;
+    display: flex;
+    margin-top: 20px; /* Adjust this value to move it down */
+}
+
+#sample2 {
     display:flex;
     flex-direction:row;
-    height:40%;
-
-
+    color: #E5E7EB;
+    width: 400px;
+    margin-top: 10px; /* Adjust this value to move it down */
+    
+    white-space: wrap;
 }
-
-#sample1{
-color:black;
-width:10%;
-display: flex;
-}
-#sample2{
-color:red;  
-width:20px;  
-}
-
 #sample3{
-    margin-left:25%;
+    
+    position:relative;
+    top:10px;
+    margin-right: 50%;
+   white-space:nowrap;
     color:white;
 }
 .footer{
     height: 45px;
     width: auto;
     background: #1F2937;
+    
+}
 
+.footer p{
+    color:white;
+    margin-top: 13px;
+    margin-left: 43%;
 }
 
