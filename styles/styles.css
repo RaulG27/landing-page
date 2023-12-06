@@ -1,8 +1,10 @@
-
+/*main flexbox container*/
 .flex-container{
     display:flex;
     flex-direction: column;
 }
+
+
 /*Top Div */
 .top {
     
@@ -12,33 +14,34 @@
 }
 
 .top h5{
-
+    position:relative;
+    left:15%;
     display: flex;
     color: #F9FAF8;
     font-weight: bold;
     font-size: 24px;
     font-family: "Verdana", sans-serif;
-    margin-left: 15%;
-    margin-top: 0.8%;
-
+    top: 4%;
+    max-width: 15%;
 }
 
 .topbar{
-    top: 0;
-    position: absolute;
+    left: 61.5%;
+    bottom: 8%;
+   position:relative;
     justify-content: space-between;
-    display: flex;
+    display: inline-block;
     flex-direction: row;
     color: #E5E7EB; 
-    margin-left: 61.5%;
-    align-self: flex-end;
-
+    width: 23%;
 }
 
 #topbar{
     font-size: 18px;
     display:flex;
     flex-direction: row;
+    position:relative;
+    top:50%;
 }
 
 li{
@@ -48,88 +51,110 @@ li{
 
 #heading-first{
     flex-direction: column;
-    display:flex;
+    position:relative;
     color: white;
-    margin-top: 60px;
-    margin-left: 15%;
-    font-size:230%
+    left:15%;
+    top:7%;
+    font-size:230%;
+    width: 347px;
 }
 
 #heading-second{
     flex-direction: column;
     display:flex;
     color:white;
-    margin-top: 2px;
-    margin-left: 15%;
+    position:relative;
+    left: 15%;
+    top: 8%;
+    width: 330px;
+    white-space: nowrap;
+ 
 }
 
 #signup{
     color:white;
-    margin-top: 2%;
-    margin-left: 15%;
+    position: relative;
     padding: 11px;
     background-color: #3882f6;
     width: 100px;
     height: 40px;
     border-radius: 8px;
+    left: 15%;
+    top: 15%;
 }
 
 #topimg{
-    display:flex;
-    position: absolute;
-    top:8%;
+    
+    position: relative;
+    bottom: 45%;
+    left: 55%;
     width:25%;
-    margin-left: 55%;
+
 }
 
 /*middle div*/
 .mid {
-    display:inline-block;
+ 
     background: white;
     height:425px;
     width:100%;
 }
 
 #midheading{
-    margin-top: 35px;
-    margin-left: 35%;
+    position:relative;
+    width: 600px;
     font-size:36px;
     color: #1F2937;
-    display:block;
+    height: 40px;
+    left: 35%;
+    top:5%;
 
 }
 
 #midbranches{
-    margin-top: 2%;
-    justify-content: center;
+    top:2%;
+    width: 760px;
     display:flex;
     flex-direction: row;
-    margin-right: 600px;
+    position:relative;
+    right:17%;
+    
 }
 #midbranches img{
-    object-position: center center;
+    
     object-fit: cover;
-    width:30%;
+    width:150px;
     margin: 20px;
     border-radius: 8px;
 }
 
 #imginfo{
-
-    width:300px;
+    
+    position:relative;
+    width: 700px;
     display:flex;
-    height:100px;
-    margin-left:32%;
+    top:47%;
+    left:31%; 
+    flex-direction:row;
+    
+    justify-content: center;
+    text-align: center;
+    
 }
 
 #imginfo p{
+    font-size:21px;
+    justify-content: space-around;
+    width: 200%;
     color: #32373f;
-    width: 300px;
-    padding-right: 160px;
     font-family: "Verdana",sans-serif;
+    padding:8%;
 }
 
 
+
+
+/*lowermid div*/
 
 .lowermid{
     height: 300px;
@@ -149,11 +174,17 @@ li{
 }
 
 #author{
+    width:240px;
+    position:relative;
+    left:58%;
     color:#1F2937;
     font-size: 22px;
-    margin-left:51%;
+    
 }
 
+
+
+/*bottom div*/
 .bottom{
     height: 275px;
     width: auto;
@@ -165,9 +196,10 @@ li{
   
     display:flex;
     flex-direction:column;
-    margin-left: 30%;
+    position:relative;
+    left:30%;
     background-color: #3882F6;
-    margin-top: 4%;
+    top: 25%;
     height: 130px;
     width:40%;
     border-radius: 8px;
@@ -175,14 +207,15 @@ li{
 }
 
 #signuptext{
-    width: 40%;
-    margin-left:10%;
-    bottom: 40%;
+    position:relative;
+    width: 55%;
+    left:10%;
+    bottom: 2%;
 }
 #signup2button {
    
     width: 13%;
-    padding-left: 3%;
+    padding: 3%;
     border-radius: 8px;
     border: 1px solid white;
     position: relative;
@@ -193,40 +226,49 @@ li{
 }
 
 #sample1 {
-    
+    position:relative;
+    width: 60%;
     font-size:23px;
     color: white;
     display: flex;
-    margin-top: 20px; /* Adjust this value to move it down */
+    top: 20px; 
 }
 
 #sample2 {
+    position:relative;
     display:flex;
     flex-direction:row;
     color: #E5E7EB;
-    width: 400px;
-    margin-top: 10px; /* Adjust this value to move it down */
-    
+    width: 100%;
+    top: 25px; 
     white-space: wrap;
 }
 #sample3{
     
     position:relative;
-    top:10px;
-    margin-right: 50%;
+    bottom:10px;
    white-space:nowrap;
     color:white;
 }
+
+
+
+
+/*footer div*/
 .footer{
     height: 45px;
     width: auto;
     background: #1F2937;
+
     
 }
 
 .footer p{
+    white-space:nowrap;
+    position:relative;
     color:white;
-    margin-top: 13px;
-    margin-left: 43%;
+    width:15%;
+    left:40%;
+    top:30%;
 }
 
