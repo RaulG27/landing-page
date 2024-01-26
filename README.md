@@ -5,7 +5,7 @@
 
 <ul>
   <li><p>Concept landing page for Star Wars' Galactic Empire, inspired by The Odin Project.</p></li>
-  <li><p>The purpose of this project was to practice using vanilla HTML and CSS, specifically Flexbox in order to recreate their concept design.</p></li>
+  <li><p>The purpose of this project was to practice using vanilla HTML and CSS, specifically Flexbox in order to recreate The Odin Project's concept design.</p></li>
   <li><p><b>Knowledge acquired:</b> understanding how padding, border and margin works. + a couple of extra tricks like making borders rounded.</p></li>
 </ul>
 
